@@ -7,6 +7,27 @@
 
 /* Generics  */
 
+.container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    height: 150px;
+    width: 250px;
+    background-image: url(https://picsum.photos/seed/picsum/400/300);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 20px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    
+}
+
 /* Utils  */
 
 /* Header  */
@@ -18,7 +39,7 @@ header {
 /* Main-Cards  */
 main {
     height: calc(100vh - 160px);
-    background-color: dodgerblue;
+    background-color: #000000;
     overflow-y: auto;
 }
 
