@@ -10,7 +10,17 @@
 /* Utils  */
 
 /* Header  */
+header {
+    height: 80px;
+    background-color: #000;
+}
 
 /* Main-Cards  */
+main {
+    height: calc(100vh - 80px);
+    background-color: dodgerblue;
+    overflow-y: auto;
+}
+
 
 /* Footer  */
