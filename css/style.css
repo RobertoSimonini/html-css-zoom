@@ -126,4 +126,7 @@ li > a {
 .wrapper {
     display: inline-block;
     padding-right: 25px;
+    line-height: 15px;
+    vertical-align: middle;
+    text-align: center;
 }
