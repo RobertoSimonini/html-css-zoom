@@ -95,6 +95,15 @@ footer {
     justify-content: space-between;
 }
 
+.audiovisual-commands {
+    padding-left: 25px;
+
+}
+
+.command {
+   padding-top: 15px;
+}
+
 li {
     list-style-type: none;
     display: inline-block;
@@ -112,4 +121,9 @@ li > a {
     padding: 0 25px;
     line-height: 80px;
     cursor: pointer;
+}
+
+.wrapper {
+    display: inline-block;
+    padding-right: 25px;
 }
