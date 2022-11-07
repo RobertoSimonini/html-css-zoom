@@ -32,7 +32,7 @@ header {
 
 }
 
-.commands {
+.screen-commands {
     position: absolute;
     padding: 5px;
     right: 0;
@@ -86,4 +86,30 @@ main {
 footer {
     background-color: #222222;
     height: 80px;
+}
+
+.navbar {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+li > a {
+    text-decoration: none;
+}
+
+.finish {
+    color: red;
+    background-color: #4a4a4a;
+    height: 100%;
+    padding: 0 25px;
+    line-height: 80px;
+    cursor: pointer;
 }
