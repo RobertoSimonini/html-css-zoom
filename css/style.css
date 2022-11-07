@@ -17,10 +17,14 @@ header {
 
 /* Main-Cards  */
 main {
-    height: calc(100vh - 80px);
+    height: calc(100vh - 160px);
     background-color: dodgerblue;
     overflow-y: auto;
 }
 
 
 /* Footer  */
+footer {
+    background-color: #222222;
+    height: 80px;
+}
